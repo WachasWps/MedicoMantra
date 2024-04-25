@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#001E1E1E"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -25,7 +26,9 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/outline_background"
+            android:foregroundTint="#FFFFFF">
 
             <EditText
                 android:id="@+id/password"
@@ -78,10 +81,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="281dp"
-        android:layout_height="218dp"
+        android:layout_width="212dp"
+        android:layout_height="169dp"
         app:srcCompat="@drawable/medico"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="55dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
